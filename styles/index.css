@@ -113,6 +113,13 @@ nav .nav_left{
     right: 0;
 }
 
+.common_cart{
+    color: rgb(44, 42, 42);
+}
+
+.common_cart:hover{
+    color: #DD6181;
+}
 .product_box{
     position: relative;
 }
