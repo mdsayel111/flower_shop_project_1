@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* common css */
+p{
+    color: rgba(39, 39, 39, 0.60);
+    margin: 30px 0;
+}
+
+.btn{
+    color: #FFF;
+    background-color: #DD6181;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+h2{
+    margin: 10px 0;
+}
+
+a{
+    color: #272727;
+    
+}
+
+span{
+    color: #DD6181;
+}
+
+/* nav start */
+
+nav{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+nav .nav_left{
+    width: 708px;
+    
+}
+.nav_right img{
+    width: 300px;
+    height: 300px;
+} 
+
+.nav_left h1, .nav_left p{
+    margin-bottom: 25px;
+}
+
+
+
+.nav_left h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* main start */
+
+.our_featured_flowers{
+    width: 515px;
+    text-align: center;
+    margin: 80px auto auto auto;
+}
+
+.flowers{
+    display: flex;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 80px;
+    height: 270px;
+}
+
+.flower_item_image{
+    padding: 66px 55px 17px;
+    border-radius: 50% 50% 0 0;
+    margin-bottom: 13px;
+}
+
+.flower_item img{
+    width: 138px;
+    height: 195px;
+}
+
+.flower_item_image_1{
+    background-color: #F2DEE7;
+}
+
+.flower_item_image_2{
+    background-color: #DAEFF1;
+}
+
+.flower_item_image_3{
+    background-color: #E3ECDB;
+}
+
+#shop_now{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#cart_icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.product_box{
+    position: relative;
+}
+
+.product_box:hover{
+    padding: 10px;
+    border: solid 1px black;
+    transition: .4s;
+}
+
+.product_title{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.section_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.shop{
+    margin-top: 2rem;
+}
+
+.product_box img{
+    height: 200px;
+    width: 200px;
+}
+#cart_icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.shop_content{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-top: 4em;
+    margin: auto;
+    margin-top: 10px;
+    gap: 45px;
+}
+
+.services{
+    margin: 100px auto 0;
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+}
+
+.service img{
+    height: 50px;
+    width: 50px;
+}
+
+.service{
+    text-align: center;
+}
+
+.hot_deal{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 55px;
+    align-items: center;
+}
+
+.hot_deal_image img{
+    height: 275px;
+    width: 235px;
+}
+
+.insta{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.flower_images{
+    display: flex;
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.flower_images img{
+    height: 270px;
+    width: 210px;
+}
+
+.leatest_deal{
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    height: 258px;
+    width: 65%;
+    background-size: cover;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.leatest_deal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#leatest_deal_h2{
+    margin-top: 80px;
+}
+
+#leatest_deal_p{
+    margin-top: 2px;
+}
+
+.leatest_deal form input[type="text"]{
+    border: none;
+    height: 34px;
+    width: 425px;
+    margin-right: 29px;
+}
+
+/* footer start */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 300px;
+    margin-top: 95px;
+}
+
+
+footer p{
+    color: #B1B1B1;
+}
+
+footer h1{
+    padding-top: 88px;
+}
